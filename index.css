@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./image/shopping.jfif);
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.child{
+    flex-grow: 1;
+}
+.bar{
+    height: 4px;
+    width: 30px;
+    background-color: white;
+    margin-top: 7px;
+}
+select{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    position: relative;
+    top: 6px
+}
+.child:first-child{
+    flex-grow: 0.3;
+}
+.child:nth-child(2){
+    flex-grow: 0.3;
+}
+
+.child input{
+    position: relative;
+    top: 6px;
+    height: 27px;
+    width: 95%
+}
+.child .lang{
+    background-color: white;
+    color: black;
+}
+.child:nth-child(5){
+    display: flex;
+    color: white;
+    position: relative;
+    top: 7px;
+}
+
+.child:nth-child(5) img{
+    vertical-align: middle;
+}
+.icon{
+    flex-grow: 1;
+}
+.child:nth-child(4){
+    flex-grow: 0.3;
+}
+section{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+section h1{
+    color: white;
+    font-size: -webkit-xxx-large;
+}
+button{
+    position: relative;
+    top: 50px;
+    padding: 7px 18px;
+    background-color: black;
+    color: white;
+}
